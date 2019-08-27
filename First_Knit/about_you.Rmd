@@ -1,0 +1,102 @@
+---
+title: "First Knit"
+author: Jason Rivera
+date: August 19, 2019
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+
+
+
+###my answer     
+  
+   I am sitting in the back of the class. I usually choose to sit in the front of the class so I can see better. I am sitting at computer number 35. I do not like periodic seat re-assignments because I'd like to get here early and get my seat in the front, and not be relocated possibly to the back on a random re-assignment. On a scale of 1 to 10 I feel like a 2 about this. I have worked with a team in a class setting.
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+  
+   I do not mind being called by my given name, Jason. 
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+  
+   Ultimately I want to achieve peace and happiness within myself. How I plan to achieve that is by completing my education by getting my masters degree in Psychology, working within that field to help troubled children whether as a school psychologist or clinical therapist at a family guidence center, and starting my own family. 
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+  
+   
+  Unfortunetly I have not gone to a foreign country, but in the future I would love to visit Italy. I have never been in the military, but if i was drafted, I would choose the Air Force because of Top Gun. It would be cool to learn to fly a fighter jet. 
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  
+   I want to attain an A in the class. Not only to not upset my future plans, but to not upset myself. I always strive to obtain perfection in whatever I set my mind to. My plan is to transfer from AVC to a 4 year University to attain a degree in Psychology.
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+  I would rate myself a 6. I have a Windows laptop at home with internet access.
+  I drive to class. There are no issues that really limit me from being at the college when I need to be. I attened High School at Skyward Christian in Sunland/Tujunga, and I graduated in 2007.
+  I currently work at In-N-Out Burger.
+   
+  
+
+
+
+
